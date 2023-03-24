@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Ajouter"
+        android:icon="@drawable/menu_ico_add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_dashboard"
+        android:title="Mes ordures"
+        android:icon="@drawable/menu_ico_list"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/navigation_notifications"
+        android:title="Calendrier"
+        android:icon="@drawable/menu_ico_calendar"
+        app:showAsAction="ifRoom"/>
+
+</menu>
