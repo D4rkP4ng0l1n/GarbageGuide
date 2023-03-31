@@ -23,7 +23,7 @@ public class SQLOrdure extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE " + ORDURE_TABLE_NAME + "(" +
-                ORDURE_COLUMN_ID + " INTEGER PRIMARY KEY, " +
+                ORDURE_COLUMN_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 ORDURE_COLUMN_NOM + " TEXT, " +
                 ORDURE_COLUMN_POUBELLE + " TEXT, " +
                 ORDURE_COLUMN_TYPE + " TEXT" +

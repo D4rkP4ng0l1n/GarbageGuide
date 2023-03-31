@@ -2,20 +2,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/navigation_home"
-        android:title="Ajouter"
-        android:icon="@drawable/menu_ico_add"
-        app:showAsAction="ifRoom"/>
-
-    <item
-        android:id="@+id/navigation_dashboard"
-        android:title="Mes ordures"
+        android:id="@+id/menu_home"
+        android:title="@string/mes_ordures"
         android:icon="@drawable/menu_ico_list"
         app:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/navigation_notifications"
-        android:title="Calendrier"
+        android:id="@+id/menu_add"
+        android:title="@string/ajouter"
+        android:icon="@drawable/menu_ico_add"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_calendar"
+        android:title="@string/calendrier"
         android:icon="@drawable/menu_ico_calendar"
         app:showAsAction="ifRoom"/>
 
