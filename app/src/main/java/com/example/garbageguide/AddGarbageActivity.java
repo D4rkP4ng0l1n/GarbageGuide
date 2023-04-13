@@ -44,19 +44,19 @@ public class AddGarbageActivity extends Activity {
 
                     switch(id) {
                         case R.id.radioButton_blue_trash:
-                            poubelle = "Bleue";
+                            poubelle = getString(R.string.bleue);
                             break;
                         case R.id.radioButton_yellow_trash:
-                            poubelle = "Jaune";
+                            poubelle = getString(R.string.jaune);
                             break;
                         case R.id.radioButton_green_trash:
-                            poubelle = "Verte";
+                            poubelle = getString(R.string.verte);
                             break;
                         case R.id.radioButton_black_trash:
-                            poubelle = "Noire";
+                            poubelle = getString(R.string.noire);
                             break;
                         case R.id.radioButton_grey_red_brown_trash:
-                            poubelle = "Grise, Rouge ou Marron";
+                            poubelle = getString(R.string.grise_rouge_ou_marron);
                             break;
                     }
 
@@ -100,7 +100,7 @@ public class AddGarbageActivity extends Activity {
                 }
 
                 ajouterOrdure(nomOrdureString, poubelle, selectedTypeText);
-                Toast.makeText(getApplicationContext(), "Ordure " + nomOrdureString +  " ajoutée !", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), getString(R.string.ordure) + " " + nomOrdureString + " " + getString(R.string.ajoutee), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(AddGarbageActivity.this, MainActivity.class);
                 startActivity(intent);
             }
@@ -123,10 +123,6 @@ public class AddGarbageActivity extends Activity {
                     case R.id.menu_home:
                         Intent intentHome = new Intent(AddGarbageActivity.this, MainActivity.class);
                         startActivity(intentHome);
-                        return true;
-                    case R.id.menu_calendar:
-                        Intent intentCalendar = new Intent(AddGarbageActivity.this, CaldendarActivity.class);
-                        startActivity(intentCalendar);
                         return true;
                     default:
                         return false;

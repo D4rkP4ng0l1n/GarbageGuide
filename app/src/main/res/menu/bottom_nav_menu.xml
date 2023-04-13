@@ -13,10 +13,4 @@
         android:icon="@drawable/menu_ico_add"
         app:showAsAction="ifRoom"/>
 
-    <item
-        android:id="@+id/menu_calendar"
-        android:title="@string/calendrier"
-        android:icon="@drawable/menu_ico_calendar"
-        app:showAsAction="ifRoom"/>
-
 </menu>

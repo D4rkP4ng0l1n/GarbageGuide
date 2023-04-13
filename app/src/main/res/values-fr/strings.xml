@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GarbageGuide</string>
+    <string name="ajouter_une_ordure">Ajouter une ordure</string>
+    <string name="papier_journal_prospectus">Papier - Journal - Prospectus</string>
+    <string name="conserve_carton_plastique_canette">Conserve - Carton - Plastique - Canette</string>
+    <string name="verre">Verre</string>
+    <string name="organique_m_nager">Organique - Ménager</string>
+    <string name="non_recyclable">Non recyclable</string>
+    <string name="couleur_de_la_poubelle">Couleur de la poubelle :</string>
+    <string name="couleur">Couleur</string>
+    <string name="annuler">Annuler</string>
+    <string name="valider">Valider</string>
+    <string name="type_du_d_chet">Type du déchet</string>
+    <string name="nom_du_d_chet">Nom du déchet</string>
+    <string name="title_ajouter_une_ordure">Ajouter une ordure</string>
+    <string name="ajouter">Ajouter</string>
+    <string name="mes_ordures">Mes ordures</string>
+    <string name="calendrier">Calendrier</string>
+    <string name="nom_ordure">Nom ordure</string>
+    <string name="no_response">Pas de réponses...</string>
+    <string name="nom_du_dechet">Nom du dechet</string>
+    <string name="retour">Retour</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="quitter">Quitter</string>
+    <string name="bleue">Bleue</string>
+    <string name="jaune">Jaune</string>
+    <string name="verte">Verte</string>
+    <string name="noire">Noire</string>
+    <string name="grise_rouge_ou_marron">Grise, Rouge ou Marron</string>
+    <string name="toast_goodTrash">Bravo, c\'est la bonne poubelle pour cette ordure</string>
+    <string name="toast_badTrash">Et non, ce n\'est pas la bonne poubelle </string>
+    <string name="ordure">Ordure </string>
+    <string name="ajoutee"> ajoutée !</string>
+    <string name="pas_de_reponse">Pas de reponses...</string>
+
+</resources>

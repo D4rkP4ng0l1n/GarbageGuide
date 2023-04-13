@@ -24,10 +24,10 @@
             android:name=".AddGarbageActivity"
             android:exported="true"/>
         <activity
-            android:name=".CaldendarActivity"
+            android:name=".InfoGarbageActivity"
             android:exported="true"/>
         <activity
-            android:name=".InfoGarbageActivity"
+            android:name=".returnTrashcanNameActivity"
             android:exported="true"/>
     </application>
 
